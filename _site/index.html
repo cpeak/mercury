@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Your awesome title</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <header class="module__site-header">
+  <div class="content">
+    <a class="nav-anchor" href="/">Project Mercury</a>
+    <nav class="site-navigation">
+      <a href="/">About</a>
+      <a href="/">Grid</a>
+      <a href="/">Something</a>
+    </nav>
+  </div>
+</header>
+
+    <div class="module__primary-secondary">
+  <div class="content">
+    <section class="panel primary">
+      <h2>Project Mercury</h2>
+      <p>This is a rough bootstrap I use to get a simple, close to static project up and running. This setup can be applied to any codebase without much changes at all. The big question is why?</p>
+      <p>I wanted an extremely slim baseline with my preferred grid system setup, along with a small smattering of styling, other than that, thats it. Close to bare metal as possible.</p>
+      <h3>Content Agnostic CSS</h3>
+      <p>For the love of all that is good and holy, DO NOT write CSS classes based on the content. Inevitably when you do that you'll need to use it elsewhere with different content, which means either you dupe the code and rename, or refactor for a re-usable content-agnostic naming convention. Do it right the first time.</p>
+      <h3>Simple Grid</h3>
+      <p>If I see a class <code>column one-third</code> I get angry. That might make sense on the desktop, but probably not on a tablet, or definitely not on your phone. It makes things confusing and syntactically incorrect. By approaching the build with an approach of modules and facets we can write cleaner CSS without worrying about floating or clearfixes, no ugly code, and it makes sense on all screen sizes.</p>
+
+    </section>
+    <section class="panel secondary">
+      <h3>Assets</h3>
+      <ul class="list__simple">
+        <li><a href="https://jekyllrb.com/" target="blank">Jekyll</a></li>
+        <li><a href="http://bourbon.io/" target="blank">Bourbon</a></li>
+        <li><a href="http://neat.bourbon.io/" target="blank">Neat</a></li>
+        <li><a href="https://developers.google.com/speed/libraries/#jquery" target="blank">JQuery (Google Hosted)</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<div class="module__normal">
+  <div class="content">
+    <h2 class="module-title">.module__normal</h2>
+    <section class="panel facets__large">
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+      <div class="facet">Facet</div>
+    </section>
+  </div>
+</div>
+
+
+<div class="module__normal">
+  <div class="content">
+    <h2 class="module-title">.module__normal</h2>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+  </div>
+</div>
+
+<div class="module__primary-secondary">
+  <div class="content">
+    <h2 class="module-title">.module__primary-secondary</h2>
+    <section class="panel primary">
+      <p>Panel</p>
+    </section>
+    <section class="panel secondary">
+      <p>Panel</p>
+    </section>
+  </div>
+</div>
+
+<div class="module__half-half">
+  <div class="content">
+    <h2 class="module-title">.module__half-half</h2>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+  </div>
+</div>
+
+<div class="module__thirds">
+  <div class="content">
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+  </div>
+</div>
+
+<div class="module__fourths">
+  <div class="content">
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+    <section class="panel">
+      <p>Panel</p>
+    </section>
+  </div>
+</div>
+
+    <footer class="module__site-footer">
+  <div class="content">
+    <p>footer</p>
+  </div>
+</footer>
+
+  </body>
+</html>
