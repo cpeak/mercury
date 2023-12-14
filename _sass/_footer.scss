@@ -1,6 +1,7 @@
-footer.module__site-footer {
-  background: $off-white;
-  color: $blue;
-  font-size: 0.9em;
+footer.site-footer {
+  border-top: 1px solid #ccc;
+  background: #2b2b2b;
+  color: white;
+  padding: 3em 0;
   text-align: center;
 }

@@ -6,12 +6,8 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "vendor/bourbon/bourbon",
-  "vendor/neat/neat",
-  "settings",
   "base",
-  "typography",
   "layout",
-  "header_navigation",
+  "header",
   "footer"
 ;
